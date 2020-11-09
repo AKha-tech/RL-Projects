@@ -16,7 +16,8 @@ import torchvision.transforms as T
 import time
 import pyglet
 
-### Neural Network Setup ###
+### Neural Network ###
+
 class DQN(nn.Module): # nn.Module is the usual pytorch nn library
     def __init__(self, img_height, img_width):
         # the input will be screenshot images of cartpole thus height and width
